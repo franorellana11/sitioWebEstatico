@@ -1,0 +1,16 @@
+@import "static/variables";
+@import "static/resets";
+@import "static/general";
+@import "pages/home";
+@import "pages/products";
+@import "pages/contact";
+@import "components/footer";
+@import "components/header";
+
+h1 {
+  color: $primary-color;
+}
+
+body {
+  min-height: 100vh;
+}
