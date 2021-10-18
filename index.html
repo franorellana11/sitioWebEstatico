@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="main.css" />
     <title>Document</title>
   </head>
@@ -13,16 +19,18 @@
       <div class="header">
         <div class="header__logo">
           <h1>PIZZAS</h1>
-          <button>
-            <img src="img/loupe.png" alt="Search" />
-          </button>
         </div>
+        <br />
         <div class="header__search"></div>
-        <input type="text" />
+        <input class="header__search--input" type="text" />
+        <button class="header__search--btn">
+          <img src="img/loupe.png" alt="Search" />
+        </button>
+        <br />
         <div class="header__nav">
-          <a href="index.html">Home</a>
-          <a href="pages/products.html">Productos</a>
-          <a href="pages/contacts.html">Contacto</a>
+          <a href="index.html" class="header--item">Home</a>
+          <a href="pages/products.html" class="header--item">Productos</a>
+          <a href="pages/contacts.html" class="header--item">Contacto</a>
         </div>
       </div>
     </div>
